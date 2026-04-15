@@ -1,0 +1,29 @@
+# Processing portable installation
+Processing/
+
+# Downloaded zip archives
+*.zip
+
+# Legacy/unused jars at root
+*.jar
+
+# Windows export build
+export/
+
+# Linux export build (binary artifacts)
+export_linux/
+
+# Processing backup files
+*.pde.backup
+*.pde.backup2
+
+# Processing sketch data cache
+pong/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

@@ -1,0 +1,28 @@
+# Release zips (uploaded to GitHub Releases, not committed)
+*.zip
+
+# Built/exported game binaries (distributed via GitHub Releases as zips)
+linux/
+windows/
+
+# Legacy/unused jars at root
+*.jar
+
+# Old export builds
+export/
+export_linux/
+
+# Processing backup files
+*.pde.backup
+*.pde.backup2
+
+# Processing sketch data cache
+pong/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/

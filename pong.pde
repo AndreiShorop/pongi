@@ -269,7 +269,7 @@ boolean transOut = false;
 
 // ===================== SETUP =====================
 void setup() {
-  size(900, 550);
+  fullScreen();
   textAlign(CENTER, CENTER);
   initSkins();
   initCatColors();
